@@ -22,6 +22,19 @@ class ViewController: NSViewController {
         }
     }
 
-
+    //Inputs
+    //@IBOutlet weak var loginUsernameText: NSTextField!
+    //@IBOutlet weak var loginPasswordSecure: NSSecureTextField!
+    
+    
+    
+    //Actions
+    /*@IBAction func loginLoginClicked(sender: AnyObject) {
+        if (loginUsernameText.stringValue == "pwrp" && loginPasswordSecure.stringValue == "pwrp") {
+            self.performSegueWithIdentifier("frontPage", sender: self)
+        }
+    }*/
+    
+    
 }
 

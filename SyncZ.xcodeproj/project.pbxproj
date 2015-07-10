@@ -12,6 +12,7 @@
 		6D53F3241B4F05B6006EF262 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D53F3231B4F05B6006EF262 /* Images.xcassets */; };
 		6D53F3271B4F05B6006EF262 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D53F3251B4F05B6006EF262 /* Main.storyboard */; };
 		6D53F3331B4F05B6006EF262 /* SyncZTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D53F3321B4F05B6006EF262 /* SyncZTests.swift */; };
+		6D53F33D1B4F07E0006EF262 /* SyncZ.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D53F33C1B4F07E0006EF262 /* SyncZ.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		6D53F32C1B4F05B6006EF262 /* SyncZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyncZTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D53F3311B4F05B6006EF262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D53F3321B4F05B6006EF262 /* SyncZTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncZTests.swift; sourceTree = "<group>"; };
+		6D53F33C1B4F07E0006EF262 /* SyncZ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SyncZ.png; path = ../../SyncZ.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		6D53F31D1B4F05B6006EF262 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6D53F33C1B4F07E0006EF262 /* SyncZ.png */,
 				6D53F31E1B4F05B6006EF262 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -158,6 +161,7 @@
 				TargetAttributes = {
 					6D53F3191B4F05B6006EF262 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = YQ989C5744;
 					};
 					6D53F32B1B4F05B6006EF262 = {
 						CreatedOnToolsVersion = 6.4;
@@ -191,6 +195,7 @@
 			files = (
 				6D53F3241B4F05B6006EF262 /* Images.xcassets in Resources */,
 				6D53F3271B4F05B6006EF262 /* Main.storyboard in Resources */,
+				6D53F33D1B4F07E0006EF262 /* SyncZ.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SyncZ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -338,6 +344,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SyncZ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
